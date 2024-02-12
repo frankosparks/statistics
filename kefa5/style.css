@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ping{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.launch{
+    font-size: 2rem;
+}
+#ll{
+    color: rgb(135, 142, 144);
+    font-weight: 100;
+    opacity: 70%;
+}
+#ss{
+    font-weight: 800;
+    color: black;
+}
+.subscribe{
+    color: rgb(73, 76, 77); 
+}
+.form{
+    height: 4rem;
+    width: 35rem;
+}
+
+input{
+    border-radius: 100px;
+    height:3rem ;
+    width: 25rem;
+    border: 1px solid rgb(135, 142, 144) ;
+}
+::placeholder{
+    padding-left: 1rem;
+}
+button{
+    border-radius: 100px;
+    color: aliceblue;
+    background-color: blue;
+    height:3rem ;
+    width: 9rem;
+    border: 1px  rgb(135, 142, 144) ;
+}
+.img img{
+    width: 40rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: blue;
+    gap: 20px;
+    border-radius: 100px;
+}
+p{
+    font-size: 10px;
+    color: rgb(135, 142, 144);;
+}
